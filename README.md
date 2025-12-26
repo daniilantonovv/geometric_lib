@@ -22,5 +22,9 @@
 - Test run reports with statuses.
 - Presence of the test file `test_geometry.py` in the public repository (e.g., GitHub).
 
+## Automatic tests
+- Added github workflow which runs unit tests on ubuntu-latest, windows-latest after every git push
+
 ## Current Test Results
 - Command `python3 -m unittest` executed: 5 tests passed (covering circle.area/perimeter and square.area/perimeter).
+
